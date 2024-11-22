@@ -1,0 +1,52 @@
+<h1>Welcome to Okpozu's playground</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visitor Counter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    #visitor-count {
+      font-size: 2rem;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Welcome to my GitHub.io Page!</h3>
+ <div id="projects">Below are my works</div>
+  <p> Here I'll be posting links to a few of my projects that I find time to post to Github. 
+    There is no criteria or preference just any work of mine that I feel like keeping or showing to the world. 
+    
+    <p>Here are links to some repositories that I have (They are very few but everyone however great they are today started some where somehow).</p>
+    
+    <p>Expenses Calculator: This an application built python library Streamlit and Mongodb database https://github.com/okpozu155/expense_web_app.</p>
+    <p>Image Identifier: An interactive application in docker!!! Upload your image, the ask any question about the image. this AI app gives you answers based on your image.</p>
+
+  <p>Number of Visitors:</p>
+  <div id="visitor-count">Loading...</div>
+
+  <script>
+    async function fetchVisitorCount() {
+      try {
+        const response = await fetch('https://okpozu155-bn0enzbzn-okpozu155s-projects.vercel.app');
+        const data = await response.json();
+        document.getElementById('visitor-count').textContent = data.count;
+      } catch (error) {
+        console.error('Error fetching visitor count:', error);
+        document.getElementById('visitor-count').textContent = 'Error';
+      }
+    }
+
+    // Call the function when the page loads
+    fetchVisitorCount();
+  </script>
+</body>
+</html>
+
