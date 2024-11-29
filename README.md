@@ -10,20 +10,14 @@ Here are links to some repositories that I have (They are very few, but everyone
 today, started somewhere somehow):
 
 <pre> 
-  - **Expenses Calculator:** This is an application built with the Python library Streamlit and MongoDB database.
-    [View on GitHub](https://github.com/your-repo-link/expenses-calculator)
+- **Expenses Calculator:** This is an application built with the Python library Streamlit and MongoDB database. 
+  [View on GitHub](https://github.com/okpozu155/expenses-calculator)
 
-- **Image Identifier:** A Dockerized application that utilizes the ViLT (Vision-and-Language Transformer) model,
-    specifically `ViltProcessor` and `ViltForQuestionAnswering`, to process both images and text together. 
-    [View on GitHub](https://github.com/your-repo-link/image-identifier)
+- **Image Identifier:** A Dockerized application that utilizes the ViLT (Vision-and-Language Transformer) model, 
+  specifically `ViltProcessor` and `ViltForQuestionAnswering`, to process both images and text together. 
+  [View on GitHub](https://github.com/okpozu155/image-identifier)
 
-- **Real-time Wall Clock:** This project creates a real-time wall clock using Python's turtle graphics module. 
-    The clock features a circular face, hour markers, and moving hour, minute, and second hands that update
-    every second to reflect the current time. [View on GitHub](https://github.com/your-repo-link/wall-clock)
-
-    
-    - **Wall Clock Simulation:** This project creates a 
-    [Turtle Clock Simulation](https://github.com/okpozu155/turtle_clock).
-
-    
+- **Real-time Wall Clock:** This project creates a real-time wall clock using Python's turtle graphics module.
+  The clock features a circular face, hour markers, and moving hour, minute, and second hands that update every
+  second to reflect the current time. [View on GitHub](https://github.com/okpozu155/wall-clock)
 </pre>
